@@ -74,10 +74,10 @@ app_license = "mit"
 # ----------
 
 # add methods and filters to jinja environment
-# jinja = {
-# 	"methods": "employee_services.utils.jinja_methods",
-# 	"filters": "employee_services.utils.jinja_filters"
-# }
+jinja = {
+	"methods": "employee_services.utils.jinja_methods",
+	"filters": "employee_services.utils.jinja_filters"
+}
 
 # Installation
 # ------------
